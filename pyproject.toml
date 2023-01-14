@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "mingpt-jax"
+version = "0.1.0"
+description = ""
+authors = ["Cristian Garcia <cgarcia.e88@gmail.com>"]
+readme = "README.md"
+packages = [{include = "mingpt"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+jax = "^0.4.1"
+jaxlib = "^0.4.1"
+flax = "^0.6.3"
+torch = "^1.13.1"
+optax = "^0.1.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
